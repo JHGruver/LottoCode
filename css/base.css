@@ -1,0 +1,54 @@
+body {
+
+
+}
+span.button{
+    display: inline-block;
+    border: 1px solid gray;
+    font: 300 1em 'Open Sans';
+    padding: 0.25em 1em;
+    border-radius: 0.15em;
+    color: #444;
+    cursor: pointer;
+}
+
+span.button:hover{
+    background-color: #555;
+    color: #eee;
+    transition: all 200ms ease;
+}
+
+div.container {
+    margin: 2em auto;
+    padding: 1em;
+    width: 70%;
+    border: 1px solid #eee;
+    min-height: 5em;
+}
+
+div.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input.circle {
+    font: 100 0.85em 'open sans';
+    height: 5em;
+    width: 5em;
+    margin: 4em;
+    border-radius: 3em;
+    text-align: center;;
+    border: 1px solid gray;
+
+}
+
+input.match {
+    box-shadow: 0 0 10px #22bc17;
+    background-color: #9bff7e;
+}
+
+input.no_match {
+    box-shadow: 0 0 10px #bc160e;
+    background-color: #ff7978;
+}
